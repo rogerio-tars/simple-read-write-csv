@@ -3,5 +3,5 @@ import numpy as np
 
 DATA = np.random.randint(1, 100, 100).reshape(10,10)
 
-df = pd.DataFrame(data=DATA)
-df.to_csv('data/df.csv', index=False)
+random_data = pd.DataFrame(data=DATA)
+random_data.to_csv('data/random_data.csv', index=False)
